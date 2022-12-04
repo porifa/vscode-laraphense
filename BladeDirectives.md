@@ -1,6 +1,8 @@
-# Blade Directive Based on Laravel version
+# Laravel Intelephense Extension for VS Code
 
-# [9.0.2](https://github.com/laravel/framework/releases/tag/v9.0.2)
+## Blade Directive Based on Laravel version
+
+## [9.0.2](https://github.com/laravel/framework/releases/tag/v9.0.2)
 
 -   Added `disabled` directive in [#40900](https://github.com/laravel/framework/pull/40900)
 
