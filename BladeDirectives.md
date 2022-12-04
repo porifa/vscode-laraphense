@@ -1,4 +1,4 @@
-# Laravel Intelephense Extension for VS Code
+# VS Code Extension - Laravel Intelephense
 
 ## Blade Directive Based on Laravel version
 
