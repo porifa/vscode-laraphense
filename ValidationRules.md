@@ -7,6 +7,11 @@
 -   Added `uppercase` rule in [#44918](https://github.com/laravel/framework/pull/44918)
 -   Added `lowercase` rule in [#44883](https://github.com/laravel/framework/pull/44883)
 
+## [9.26.0](https://github.com/laravel/framework/releases/tag/v9.26.0)
+
+-   Added `min_digits` rule in [#43797](https://github.com/laravel/framework/pull/43797)
+-   Added `max_digits` rule in [#43797](https://github.com/laravel/framework/pull/43797)
+
 ## Unknown
 
 -   Added `accepted` rule in
