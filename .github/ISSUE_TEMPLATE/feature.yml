@@ -1,6 +1,6 @@
 name: Feature Request
 description: Propose a new feature for Laravel Intelephense
-labels: ["Feature Request", "Vote For it"]
+labels: ["Feature Request"]
 title: "[Feature Request]: "
 body:
   - type: markdown
