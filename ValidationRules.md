@@ -1,6 +1,10 @@
 # VS Code Extension - Laravel Intelephense
 
-## Blade Directive Based on Laravel version
+## Validation Rules Based on Laravel version
+
+## [9.45.0](https://github.com/laravel/framework/releases/tag/v9.45.0)
+
+-   Added `decimal` rule in [#45356](https://github.com/laravel/framework/pull/45356)
 
 ## [9.44.0](https://github.com/laravel/framework/releases/tag/v9.44.0)
 
