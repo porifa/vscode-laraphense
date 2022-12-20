@@ -2,6 +2,10 @@
 
 ## Blade Directive Based on Laravel version
 
+## [9.19.0](https://github.com/laravel/framework/releases/tag/v9.19.0)
+
+-   Added `vite` directive in [#42785](https://github.com/laravel/framework/pull/42785)
+
 ## [9.0.2](https://github.com/laravel/framework/releases/tag/v9.0.2)
 
 -   Added `disabled` directive in [#40900](https://github.com/laravel/framework/pull/40900)
@@ -96,7 +100,6 @@
 -   Added `switch` directive in
 -   Added `unless` directive in
 -   Added `verbatim` directive in
--   Added `vite` directive in
 -   Added `while` directive in
 -   Added `yield` directive in
 
