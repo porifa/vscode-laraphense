@@ -2,6 +2,11 @@
 
 ## Blade Directive Based on Laravel version
 
+## [9.44.0](https://github.com/laravel/framework/releases/tag/v9.44.0)
+
+-   Added `ascii` rule in [#45218](https://github.com/laravel/framework/pull/45218)
+-   Added `ulid` rule in [#45218](https://github.com/laravel/framework/pull/45218)
+
 ## [9.40.0](https://github.com/laravel/framework/releases/tag/v9.40.0)
 
 -   Added `uppercase` rule in [#44918](https://github.com/laravel/framework/pull/44918)
