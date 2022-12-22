@@ -14,6 +14,10 @@
 
 -   Added `aware` directive in [#39100](https://github.com/laravel/framework/pull/39100)
 
+## [8.51.0](https://github.com/laravel/framework/releases/tag/v8.51.0)
+
+-   Added `class` directive in [#38016](https://github.com/laravel/framework/pull/38016)
+
 ## Unknown
 
 -   Added `auth` directive in
