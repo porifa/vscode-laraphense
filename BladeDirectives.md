@@ -40,6 +40,9 @@
 -   Added `endcanany` directive in [#24137](https://github.com/laravel/framework/pull/24137)
 -   Added `elsecanany` directive in [#24137](https://github.com/laravel/framework/pull/24137)
 
+## [5.6.8](https://github.com/laravel/framework/releases/tag/v5.6.8)
+
+-   Added `dump ` directive in [#23364](https://github.com/laravel/framework/pull/23364)
 
 ## Unknown
 
