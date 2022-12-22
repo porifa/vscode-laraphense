@@ -34,6 +34,12 @@
 -   Added `error ` directive in [#28062](https://github.com/laravel/framework/pull/28062)
 -   Added `enderror ` directive in [#28062](https://github.com/laravel/framework/pull/28062)
 
+## [5.6.23](https://github.com/laravel/framework/releases/tag/v5.6.23)
+
+-   Added `canany` directive in [#24137](https://github.com/laravel/framework/pull/24137)
+-   Added `endcanany` directive in [#24137](https://github.com/laravel/framework/pull/24137)
+-   Added `elsecanany` directive in [#24137](https://github.com/laravel/framework/pull/24137)
+
 
 ## Unknown
 
