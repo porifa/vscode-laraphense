@@ -22,6 +22,13 @@
 
 -   Added `sectionMissing` directive in [#33614](https://github.com/laravel/framework/pull/33614)
 
+## [7.11.0](https://github.com/laravel/framework/releases/tag/v7.11.0)
+
+-   Added `production` directive in [#32742](https://github.com/laravel/framework/pull/32742)
+-   Added `endproduction` directive in [#32742](https://github.com/laravel/framework/pull/32742)
+-   Added `env` directive in [#32742](https://github.com/laravel/framework/pull/32742)
+-   Added `endenv` directive in [#32742](https://github.com/laravel/framework/pull/32742)
+
 ## Unknown
 
 -   Added `auth` directive in
@@ -51,7 +58,6 @@
 -   Added `endcan` directive in
 -   Added `endcannot` directive in
 -   Added `endempty` directive in
--   Added `endenv` directive in
 -   Added `enderror` directive in
 -   Added `endfor` directive in
 -   Added `endforeach` directive in
@@ -62,7 +68,6 @@
 -   Added `endonce` directive in
 -   Added `endphp` directive in
 -   Added `endprepend` directive in
--   Added `endproduction` directive in
 -   Added `endpush` directive in
 -   Added `endsection` directive in
 -   Added `endslot` directive in
@@ -70,7 +75,6 @@
 -   Added `endunless` directive in
 -   Added `endverbatim` directive in
 -   Added `endwhile` directive in
--   Added `env` directive in
 -   Added `error` directive in
 -   Added `extends` directive in
 -   Added `for` directive in
@@ -96,7 +100,6 @@
 -   Added `parent` directive in
 -   Added `php` directive in
 -   Added `prepend` directive in
--   Added `production` directive in
 -   Added `props` directive in
 -   Added `push` directive in
 -   Added `readonly` directive in
