@@ -18,6 +18,10 @@
 
 -   Added `class` directive in [#38016](https://github.com/laravel/framework/pull/38016)
 
+## [7.22.0](https://github.com/laravel/framework/releases/tag/v7.22.0)
+
+-   Added `sectionMissing` directive in [#33614](https://github.com/laravel/framework/pull/33614)
+
 ## Unknown
 
 -   Added `auth` directive in
@@ -99,7 +103,6 @@
 -   Added `required` directive in
 -   Added `section` directive in
 -   Added `section` directive in
--   Added `sectionMissing` directive in
 -   Added `selected` directive in
 -   Added `show` directive in
 -   Added `slot` directive in
