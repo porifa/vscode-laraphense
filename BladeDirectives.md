@@ -60,7 +60,6 @@
 -   Added `csrf` directive in
 -   Added `dd` directive in
 -   Added `default` directive in
--   Added `dump` directive in
 -   Added `each` directive in
 -   Added `else` directive in
 -   Added `elsecan` directive in
