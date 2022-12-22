@@ -29,6 +29,12 @@
 -   Added `env` directive in [#32742](https://github.com/laravel/framework/pull/32742)
 -   Added `endenv` directive in [#32742](https://github.com/laravel/framework/pull/32742)
 
+## [5.8.13](https://github.com/laravel/framework/releases/tag/v5.8.13)
+
+-   Added `error ` directive in [#28062](https://github.com/laravel/framework/pull/28062)
+-   Added `enderror ` directive in [#28062](https://github.com/laravel/framework/pull/28062)
+
+
 ## Unknown
 
 -   Added `auth` directive in
@@ -58,7 +64,6 @@
 -   Added `endcan` directive in
 -   Added `endcannot` directive in
 -   Added `endempty` directive in
--   Added `enderror` directive in
 -   Added `endfor` directive in
 -   Added `endforeach` directive in
 -   Added `endforelse` directive in
@@ -75,7 +80,6 @@
 -   Added `endunless` directive in
 -   Added `endverbatim` directive in
 -   Added `endwhile` directive in
--   Added `error` directive in
 -   Added `extends` directive in
 -   Added `for` directive in
 -   Added `foreach` directive in
