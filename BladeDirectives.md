@@ -10,6 +10,10 @@
 
 -   Added `disabled` directive in [#40900](https://github.com/laravel/framework/pull/40900)
 
+## [8.64.0](https://github.com/laravel/framework/releases/tag/v8.64.0)
+
+-   Added `aware` directive in [#39100](https://github.com/laravel/framework/pull/39100)
+
 ## Unknown
 
 -   Added `auth` directive in
