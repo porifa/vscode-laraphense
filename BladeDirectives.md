@@ -53,6 +53,10 @@
 
 -   Added `includeFirst` directive in [#21172](https://github.com/laravel/framework/pull/21172)
 
+## [5.5.3](https://github.com/laravel/framework/releases/tag/v5.5.3)
+
+-   Added `json ` directive in [#21004](https://github.com/laravel/framework/pull/21004)
+
 ## Unknown
 
 -   Added `auth` directive in
