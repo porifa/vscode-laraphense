@@ -44,6 +44,11 @@
 
 -   Added `dump ` directive in [#23364](https://github.com/laravel/framework/pull/23364)
 
+## [5.6.0](https://github.com/laravel/framework/releases/tag/v5.6.0)
+
+-   Added `csrf ` directive in [commit](https://github.com/laravel/framework/commit/5f1984421af096ef21b7d2011949a233849d4ee3)
+-   Added `method ` directive in [commit](https://github.com/laravel/framework/commit/5f1984421af096ef21b7d2011949a233849d4ee3)
+
 ## Unknown
 
 -   Added `auth` directive in
@@ -57,7 +62,6 @@
 -   Added `continue` directive in
 -   Added `continue` directive in
 -   Added `component` directive in
--   Added `csrf` directive in
 -   Added `dd` directive in
 -   Added `default` directive in
 -   Added `each` directive in
@@ -107,7 +111,6 @@
 -   Added `isset` directive in
 -   Added `json` directive in
 -   Added `lang` directive in
--   Added `method` directive in
 -   Added `once` directive in
 -   Added `parent` directive in
 -   Added `php` directive in
