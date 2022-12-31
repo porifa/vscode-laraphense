@@ -37,10 +37,14 @@
 -   Added `env` directive in [#32742](https://github.com/laravel/framework/pull/32742)
 -   Added `endenv` directive in [#32742](https://github.com/laravel/framework/pull/32742)
 
+## [6.5.1](https://github.com/laravel/framework/releases/tag/v6.5.1)
+
+-   Added `includeUnless` directive in [#30538](https://github.com/laravel/framework/pull/30538)
+
 ## [5.8.13](https://github.com/laravel/framework/releases/tag/v5.8.13)
 
--   Added `error ` directive in [#28062](https://github.com/laravel/framework/pull/28062)
--   Added `enderror ` directive in [#28062](https://github.com/laravel/framework/pull/28062)
+-   Added `error` directive in [#28062](https://github.com/laravel/framework/pull/28062)
+-   Added `enderror` directive in [#28062](https://github.com/laravel/framework/pull/28062)
 
 ## [5.6.23](https://github.com/laravel/framework/releases/tag/v5.6.23)
 
@@ -50,12 +54,12 @@
 
 ## [5.6.8](https://github.com/laravel/framework/releases/tag/v5.6.8)
 
--   Added `dump ` directive in [#23364](https://github.com/laravel/framework/pull/23364)
+-   Added `dump` directive in [#23364](https://github.com/laravel/framework/pull/23364)
 
 ## [5.6.0](https://github.com/laravel/framework/releases/tag/v5.6.0)
 
--   Added `csrf ` directive in [commit](https://github.com/laravel/framework/commit/5f1984421af096ef21b7d2011949a233849d4ee3)
--   Added `method ` directive in [commit](https://github.com/laravel/framework/commit/5f1984421af096ef21b7d2011949a233849d4ee3)
+-   Added `csrf` directive in [commit](https://github.com/laravel/framework/commit/5f1984421af096ef21b7d2011949a233849d4ee3)
+-   Added `method` directive in [commit](https://github.com/laravel/framework/commit/5f1984421af096ef21b7d2011949a233849d4ee3)
 
 ## [5.5.5](https://github.com/laravel/framework/releases/tag/v5.5.5)
 
@@ -63,7 +67,7 @@
 
 ## [5.5.3](https://github.com/laravel/framework/releases/tag/v5.5.3)
 
--   Added `json ` directive in [#21004](https://github.com/laravel/framework/pull/21004)
+-   Added `json` directive in [#21004](https://github.com/laravel/framework/pull/21004)
 
 ## [5.5.0](https://github.com/laravel/framework/releases/tag/v5.5.0)
 
@@ -124,7 +128,6 @@
 -   Added `includeFirst` directive in
 -   Added `includeIf` directive in
 -   Added `includeWhen` directive in
--   Added `includeUnless` directive in
 -   Added `inject` directive in
 -   Added `isset` directive in
 -   Added `lang` directive in
