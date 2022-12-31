@@ -103,7 +103,6 @@
 -   Added `cannot` directive in
 -   Added `checked` directive in
 -   Added `continue` directive in
--   Added `continue` directive in
 -   Added `component` directive in
 -   Added `dd` directive in
 -   Added `each` directive in
@@ -111,7 +110,6 @@
 -   Added `elsecan` directive in
 -   Added `elsecannot` directive in
 -   Added `elseif` directive in
--   Added `empty` directive in
 -   Added `empty` directive in
 -   Added `endcomponent` directive in
 -   Added `endcan` directive in
@@ -148,7 +146,6 @@
 -   Added `props` directive in
 -   Added `push` directive in
 -   Added `readonly` directive in
--   Added `section` directive in
 -   Added `section` directive in
 -   Added `selected` directive in
 -   Added `show` directive in
