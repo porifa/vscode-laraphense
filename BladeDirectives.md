@@ -92,6 +92,11 @@
 -   Added `guest` directive in [#20114](https://github.com/laravel/framework/pull/20114)
 -   Added `endguest` directive in [#20114](https://github.com/laravel/framework/pull/20114)
 
+## [5.4.16](https://github.com/laravel/framework/releases/tag/v5.4.16)
+
+-   Added `isset` directive in [#18425](https://github.com/laravel/framework/pull/18425)
+-   Added `endisset` directive in [#18425](https://github.com/laravel/framework/pull/18425)
+
 ## Unknown
 
 -   Added `can` directive in
@@ -116,7 +121,6 @@
 -   Added `endforeach` directive in
 -   Added `endforelse` directive in
 -   Added `endif` directive in
--   Added `endisset` directive in
 -   Added `endonce` directive in
 -   Added `endphp` directive in
 -   Added `endprepend` directive in
@@ -133,11 +137,9 @@
 -   Added `hasSection` directive in
 -   Added `if` directive in
 -   Added `include` directive in
--   Added `includeFirst` directive in
 -   Added `includeIf` directive in
 -   Added `includeWhen` directive in
 -   Added `inject` directive in
--   Added `isset` directive in
 -   Added `lang` directive in
 -   Added `once` directive in
 -   Added `parent` directive in
