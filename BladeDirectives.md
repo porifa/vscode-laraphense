@@ -41,6 +41,10 @@
 
 -   Added `includeUnless` directive in [#30538](https://github.com/laravel/framework/pull/30538)
 
+## [5.8.24](https://github.com/laravel/framework/releases/tag/v5.8.24)
+
+-   Added `endcomponentFirst` directive in [#28884](https://github.com/laravel/framework/pull/28884)
+
 ## [5.8.13](https://github.com/laravel/framework/releases/tag/v5.8.13)
 
 -   Added `error` directive in [#28062](https://github.com/laravel/framework/pull/28062)
