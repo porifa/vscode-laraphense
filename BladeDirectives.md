@@ -45,6 +45,10 @@
 
 -   Added `endcomponentFirst` directive in [#28884](https://github.com/laravel/framework/pull/28884)
 
+## [5.8.22](https://github.com/laravel/framework/releases/tag/v5.8.22)
+
+-   Added `componentFirst` directive in [#28783](https://github.com/laravel/framework/pull/28783)
+
 ## [5.8.13](https://github.com/laravel/framework/releases/tag/v5.8.13)
 
 -   Added `error` directive in [#28062](https://github.com/laravel/framework/pull/28062)
