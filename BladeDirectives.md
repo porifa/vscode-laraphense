@@ -65,10 +65,15 @@
 -   Added `default` directive in [#19758](https://github.com/laravel/framework/pull/19758)
 -   Added `endswitch` directive in [#19758](https://github.com/laravel/framework/pull/19758)
 
+## [5.4.29](https://github.com/laravel/framework/releases/tag/v5.4.29)
+
+-   Added `auth` directive in [#20087](https://github.com/laravel/framework/pull/20087)
+-   Added `endauth` directive in [#20087](https://github.com/laravel/framework/pull/20087)
+-   Added `guest` directive in [#20114](https://github.com/laravel/framework/pull/20114)
+-   Added `endguest` directive in [#20114](https://github.com/laravel/framework/pull/20114)
+
 ## Unknown
 
--   Added `auth` directive in
--   Added `auth` directive in
 -   Added `can` directive in
 -   Added `cannot` directive in
 -   Added `checked` directive in
@@ -83,7 +88,6 @@
 -   Added `elseif` directive in
 -   Added `empty` directive in
 -   Added `empty` directive in
--   Added `endauth` directive in
 -   Added `endcomponent` directive in
 -   Added `endcan` directive in
 -   Added `endcannot` directive in
@@ -91,7 +95,6 @@
 -   Added `endfor` directive in
 -   Added `endforeach` directive in
 -   Added `endforelse` directive in
--   Added `endguest` directive in
 -   Added `endif` directive in
 -   Added `endisset` directive in
 -   Added `endonce` directive in
@@ -107,8 +110,6 @@
 -   Added `for` directive in
 -   Added `foreach` directive in
 -   Added `forelse` directive in
--   Added `guest` directive in
--   Added `guest` directive in
 -   Added `hasSection` directive in
 -   Added `if` directive in
 -   Added `include` directive in
