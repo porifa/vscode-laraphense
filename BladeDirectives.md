@@ -2,6 +2,10 @@
 
 ## Blade Directive Based on Laravel version
 
+## [9.20.0](https://github.com/laravel/framework/releases/tag/v9.20.0)
+
+-   Added `required` directive in [#43103](https://github.com/laravel/framework/pull/43103)
+
 ## [9.19.0](https://github.com/laravel/framework/releases/tag/v9.19.0)
 
 -   Added `vite` directive in [#42785](https://github.com/laravel/framework/pull/42785)
@@ -127,7 +131,6 @@
 -   Added `props` directive in
 -   Added `push` directive in
 -   Added `readonly` directive in
--   Added `required` directive in
 -   Added `section` directive in
 -   Added `section` directive in
 -   Added `selected` directive in
