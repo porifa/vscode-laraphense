@@ -57,21 +57,25 @@
 
 -   Added `json ` directive in [#21004](https://github.com/laravel/framework/pull/21004)
 
+## [5.5.0](https://github.com/laravel/framework/releases/tag/v5.5.0)
+
+-   Added `switch` directive in [#19758](https://github.com/laravel/framework/pull/19758)
+-   Added `case` directive in [#19758](https://github.com/laravel/framework/pull/19758)
+-   Added `break` directive in [#19758](https://github.com/laravel/framework/pull/19758)
+-   Added `default` directive in [#19758](https://github.com/laravel/framework/pull/19758)
+-   Added `endswitch` directive in [#19758](https://github.com/laravel/framework/pull/19758)
+
 ## Unknown
 
 -   Added `auth` directive in
 -   Added `auth` directive in
--   Added `break` directive in
--   Added `break` directive in
 -   Added `can` directive in
 -   Added `cannot` directive in
--   Added `case` directive in
 -   Added `checked` directive in
 -   Added `continue` directive in
 -   Added `continue` directive in
 -   Added `component` directive in
 -   Added `dd` directive in
--   Added `default` directive in
 -   Added `each` directive in
 -   Added `else` directive in
 -   Added `elsecan` directive in
@@ -96,7 +100,6 @@
 -   Added `endpush` directive in
 -   Added `endsection` directive in
 -   Added `endslot` directive in
--   Added `endswitch` directive in
 -   Added `endunless` directive in
 -   Added `endverbatim` directive in
 -   Added `endwhile` directive in
@@ -108,8 +111,6 @@
 -   Added `guest` directive in
 -   Added `hasSection` directive in
 -   Added `if` directive in
--   Added `if` directive in
--   Added `if` directive in
 -   Added `include` directive in
 -   Added `includeFirst` directive in
 -   Added `includeIf` directive in
@@ -117,7 +118,6 @@
 -   Added `includeUnless` directive in
 -   Added `inject` directive in
 -   Added `isset` directive in
--   Added `json` directive in
 -   Added `lang` directive in
 -   Added `once` directive in
 -   Added `parent` directive in
@@ -134,7 +134,6 @@
 -   Added `slot` directive in
 -   Added `stack` directive in
 -   Added `stop` directive in
--   Added `switch` directive in
 -   Added `unless` directive in
 -   Added `verbatim` directive in
 -   Added `while` directive in
