@@ -1,7 +1,6 @@
-# VS Code Extension - Laravel Intelephense
+# VS Code Extension - Laraphense
 
 ## Validation Rules Based on Laravel version
-
 
 ## [9.45.0](https://github.com/laravel/framework/releases/tag/v9.45.0)
 
