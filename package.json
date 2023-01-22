@@ -1,61 +1,303 @@
 {
     "name": "laraphense",
-    "description": "Laravel Intellisense",
+    "displayName": "Laraphense (Laravel Intelephense or  Laravel Intellisense)",
+    "description": "Laravel Intelephense for Visual Studio Code is all in one (laravel blade snippets, laravel goto view, laravel goto components, laravel goto controller, laravel blade spacer)",
     "author": "Aamir Sohail KmAs",
     "license": "MIT",
-    "version": "0.0.1",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/porifa/vscode-laraphense"
-    },
     "publisher": "porifa",
     "categories": [
         "Programming Languages",
+        "Formatters",
         "Snippets",
         "Other"
     ],
     "keywords": [
-        "laraphense, laravel intelephense, laravel, laravel Intellisense"
+        "laraphense, laravel intelephense, laravel, laravel Intellisense",
+        "laravel",
+        "laravel intelephense",
+        "php intelephense laravel",
+        "laravel goto view",
+        "aravel goto components",
+        "laravel goto controller",
+        "code completion",
+        "laravel intellisense",
+        "laravel autocomplete"
     ],
-    "engines": {
-        "vscode": "^1.52.0"
+    "icon": "images/icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/porifa/vscode-laraphense"
     },
+    "bugs": {
+        "url": "https://github.com/porifa/vscode-laraphense/issue"
+    },
+    "engines": {
+        "vscode": "^1.72.0"
+    },
+    "version": "0.0.1",
     "activationEvents": [
-        "onLanguage:plaintext",
+        "onLanguage:php",
         "onLanguage:blade",
-        "onLanguage:php"
+        "onCommand:laraphense.createView"
     ],
     "main": "./client/out/extension",
     "contributes": {
-        "configuration": {
-            "type": "object",
-            "title": "Multi LSP configuration",
-            "properties": {
-                "laraphense.enable": {
-                    "scope": "resource",
-                    "type": "boolean",
-                    "default": true,
-                    "description": "Controls the enablement."
-                },
-                "laraphense.options": {
-                    "scope": "resource",
-                    "type": "object",
-                    "default": {},
-                    "description": "Additional options."
-                },
-                "laraphense.trace.server": {
-                    "scope": "window",
-                    "type": "string",
-                    "enum": [
-                        "off",
-                        "messages",
-                        "verbose"
-                    ],
-                    "default": "off",
-                    "description": "Traces the communication between VSCode and the language server."
+        "configurationDefaults": {
+            "[html]": {
+                "editor.autoClosingBrackets": "always"
+            },
+            "[blade]": {
+                "editor.autoClosingBrackets": "always"
+            }
+        },
+        "configuration": [
+            {
+                "title": "Laraphense",
+                "type": "object",
+                "properties": {
+                    "laraphense.enable": {
+                        "scope": "resource",
+                        "type": "boolean",
+                        "default": true,
+                        "description": "Controls the enablement."
+                    },
+                    "laraphense.options": {
+                        "scope": "resource",
+                        "type": "object",
+                        "default": {},
+                        "description": "Additional options."
+                    },
+                    "laraphense.trace.server": {
+                        "scope": "window",
+                        "type": "string",
+                        "enum": [
+                            "off",
+                            "messages",
+                            "verbose"
+                        ],
+                        "default": "off",
+                        "description": "Traces the communication between VSCode and the language server."
+                    },
+                    "laraphense.createViewEveryWhere": {
+                        "type": "boolean",
+                        "default": true,
+                        "description": "Create View From any selection"
+                    },
+                    "laraphense.maxLinesCount": {
+                        "type": "integer",
+                        "default": 1000,
+                        "description": "Maximum number of scanning rows"
+                    },
+                    "laraphense.viewRegex": {
+                        "type": "string",
+                        "default": "(?<=view\\(['\"]|.view:.?['\"]|View::make\\(['\"]|nest\\(['\"](.*)['\"],.?['\"]|@include\\(['\"]|@extends\\(['\"]|@component\\(['\"]|Inertia::render\\(['\"]|\\(component:.['\"])([^'\" \\>]+)|(?:<livewire:|\\<x-|\\<x-jet-|livewire\\(['\"])([^'\" \\>]+)",
+                        "description": "Custom regex for matching strings"
+                    },
+                    "laraphense.viewCreateRegex": {
+                        "type": "string",
+                        "default": "(?<=view\\(['\"]|.view:.?['\"]|View::make\\(['\"]|nest\\(['\"](.*)['\"],.?['\"]|Inertia::render\\(['\"]|\\(component:.['\"])([^'\"]+)",
+                        "description": "Custom regex for matching strings to auto suggest"
+                    },
+                    "laraphense.viewFolders": {
+                        "type": "object",
+                        "default": {
+                            "default": "/resources/views",
+                            "js": "/resources/js/Pages",
+                            "livewire": "/resources/views/livewire",
+                            "vendor": "/resources/views/vendor"
+                        },
+                        "items": {
+                            "type": "string"
+                        },
+                        "minItems": 1,
+                        "uniqueItems": true,
+                        "description": "Multiple folders"
+                    },
+                    "laraphense.viewExtensions": {
+                        "type": "array",
+                        "default": [
+                            ".blade.php",
+                            ".vue"
+                        ],
+                        "items": {
+                            "type": "string"
+                        },
+                        "minItems": 1,
+                        "uniqueItems": true,
+                        "description": "Multiple extensions for view"
+                    },
+                    "laraphense.customValidationRules": {
+                        "type": "object",
+                        "default": {},
+                        "description": "Custom validation rules snippets."
+                    },
+                    "laraphense.viewDirectorySeparator": {
+                        "type": "string",
+                        "default": ".",
+                        "description": ". or /"
+                    },
+                    "laraphense.phpCommand": {
+                        "type": "string",
+                        "default": "php -r \"{code}\"",
+                        "description": "PHP Command using to run PHP codes"
+                    },
+                    "laraphense.basePath": {
+                        "type": "string",
+                        "description": "Base path is used to read files."
+                    },
+                    "laraphense.basePathForCode": {
+                        "type": "string",
+                        "description": "This base path is used for require_once inside PHP code."
+                    },
+                    "laraphense.modelsPaths": {
+                        "type": "array",
+                        "default": [
+                            "app",
+                            "app/Models"
+                        ],
+                        "description": "Path of models you put your model codes."
+                    },
+                    "laraphense.modelVariables": {
+                        "type": "object",
+                        "default": {
+                            "user": "App\\Models\\User"
+                        },
+                        "description": "Variables that should provide model autocomplete."
+                    },
+                    "laraphense.modelAttributeCase": {
+                        "type": "string",
+                        "enum": [
+                            "default",
+                            "snake",
+                            "camel"
+                        ],
+                        "default": "default",
+                        "description": "Change attribute name case to snake or camel."
+                    },
+                    "laraphense.modelAccessorCase": {
+                        "type": "string",
+                        "enum": [
+                            "default",
+                            "snake",
+                            "camel"
+                        ],
+                        "default": "snake",
+                        "description": "Change accessor name case to snake or camel."
+                    },
+                    "laraphense.disableAssetCompletion": {
+                        "type": "boolean",
+                        "default": false,
+                        "description": "If you want to disable assets autocomplete set this to true."
+                    },
+                    "laraphense.disableAuthCompletion": {
+                        "type": "boolean",
+                        "default": false,
+                        "description": "If you want to disable auth autocomplete set this to true."
+                    },
+                    "laraphense.disableBladeCompletion": {
+                        "type": "boolean",
+                        "default": false,
+                        "description": "If you want to disable blade directives autocomplete set this to true."
+                    },
+                    "laraphense.disableConfigCompletion": {
+                        "type": "boolean",
+                        "default": false,
+                        "description": "If you want to disable config autocomplete set this to true."
+                    },
+                    "laraphense.disableControllerCompletion": {
+                        "type": "boolean",
+                        "default": false,
+                        "description": "If you want to disable controller autocomplete set this to true."
+                    },
+                    "laraphense.disableCurlyBracesSpacer": {
+                        "type": "boolean",
+                        "default": false,
+                        "description": "If you want to disable Curly Braces Spacer set this to true."
+                    },
+                    "laraphense.disableEloquentCompletion": {
+                        "type": "boolean",
+                        "default": false,
+                        "description": "If you want to disable eloquent autocomplete set this to true."
+                    },
+                    "laraphense.disableEnvCompletion": {
+                        "type": "boolean",
+                        "default": false,
+                        "description": "If you want to disable env autocomplete set this to true."
+                    },
+                    "laraphense.disableMiddlewareCompletion": {
+                        "type": "boolean",
+                        "default": false,
+                        "description": "If you want to disable middleware autocomplete set this to true."
+                    },
+                    "laraphense.disableMixCompletion": {
+                        "type": "boolean",
+                        "default": false,
+                        "description": "If you want to disable mix autocomplete set this to true."
+                    },
+                    "laraphense.disableRouteCompletion": {
+                        "type": "boolean",
+                        "default": false,
+                        "description": "If you want to disable route autocomplete set this to true."
+                    },
+                    "laraphense.disableTranslationCompletion": {
+                        "type": "boolean",
+                        "default": false,
+                        "description": "If you want to disable Translation autocomplete set this to true."
+                    },
+                    "laraphense.disableValidationCompletion": {
+                        "type": "boolean",
+                        "default": false,
+                        "description": "If you want to disable Validation autocomplete set this to true."
+                    },
+                    "laraphense.disableViewCompletion": {
+                        "type": "boolean",
+                        "default": false,
+                        "description": "If you want to disable View autocomplete set this to true."
+                    },
+                    "laraphense.disableGoToView": {
+                        "type": "boolean",
+                        "default": false,
+                        "description": "If you want to disable Go To View set this to true."
+                    },
+                    "laraphense.disableGoToConfig": {
+                        "type": "boolean",
+                        "default": false,
+                        "description": "If you want to disable Go To Config set this to true."
+                    }
                 }
             }
-        }
+        ],
+        "commands": [
+            {
+                "command": "laraphense.createView",
+                "title": "Create View File",
+                "category": "Laraphense"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "dotenv",
+                "scopeName": "source.env",
+                "path": "./syntaxes/env.tmLanguage.json"
+            }
+        ],
+        "languages": [
+            {
+                "id": "dotenv",
+                "aliases": [
+                    "Environment Variables",
+                    "dotenv",
+                    "env"
+                ],
+                "extensions": [
+                    ".env",
+                    ".env.example",
+                    ".env.dev",
+                    ".env.test"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ]
     },
     "scripts": {
         "vscode:prepublish": "npm run compile",
