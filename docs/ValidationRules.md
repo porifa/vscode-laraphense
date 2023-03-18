@@ -2,6 +2,14 @@
 
 ## Validation Rules Based on Laravel version
 
+## [9.49.0](https://github.com/laravel/framework/releases/tag/v9.49.0)
+
+-   Added `missing` rule in [#45717](https://github.com/laravel/framework/pull/45717)
+-   Added `missing_if` rule in [#45717](https://github.com/laravel/framework/pull/45717)
+-   Added `missing_unless` rule in [#45717](https://github.com/laravel/framework/pull/45717)
+-   Added `missing_with` rule in [#45717](https://github.com/laravel/framework/pull/45717)
+-   Added `missing_with_all` rule in [#45717](https://github.com/laravel/framework/pull/45717)
+
 ## [9.45.0](https://github.com/laravel/framework/releases/tag/v9.45.0)
 
 -   Added `decimal` rule in [#45356](https://github.com/laravel/framework/pull/45356)
