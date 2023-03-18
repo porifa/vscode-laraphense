@@ -2,6 +2,10 @@
 
 ## Blade Directive Based on Laravel version
 
+## [9.50.0](https://github.com/laravel/framework/releases/tag/v9.50.0)
+
+-   Added `style` directive in [#45887](https://github.com/laravel/framework/pull/45887)
+
 ## [9.19.0](https://github.com/laravel/framework/releases/tag/v9.19.0)
 
 -   Added `vite` directive in [#42785](https://github.com/laravel/framework/pull/42785)
