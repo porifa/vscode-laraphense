@@ -1,6 +1,10 @@
-# VS Code Extension - Laravel Intelephense
+# VS Code Extension - Laraphense
 
 ## Blade Directive Based on Laravel version
+
+## [9.50.0](https://github.com/laravel/framework/releases/tag/v9.50.0)
+
+-   Added `style` directive in [#45887](https://github.com/laravel/framework/pull/45887)
 
 ## [9.20.0](https://github.com/laravel/framework/releases/tag/v9.20.0)
 

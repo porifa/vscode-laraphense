@@ -1,6 +1,6 @@
-name: Bug Report for Laravel Intelephense
-description: File a bug report for Laravel Intelephense
-title: "[Bug for Laravel Intelephense]: "
+name: Bug Report for Laraphense
+description: File a bug report for Laraphense
+title: "[Bug for Laraphense]: "
 labels: ["Bug"]
 body:
     - type: markdown
@@ -18,7 +18,7 @@ body:
       id: version
       attributes:
           label: Plugin version
-          description: "Please provide a Laravel Intelephense version."
+          description: "Please provide a Laraphense version."
           placeholder: "For example: 1.16.2"
     - type: dropdown
       id: os
